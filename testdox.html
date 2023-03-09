@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Test Documentation</title>
+        <style>
+            body {
+                text-rendering: optimizeLegibility;
+                font-variant-ligatures: common-ligatures;
+                font-kerning: normal;
+                margin-left: 2em;
+            }
+
+            body > ul > li {
+                font-family: Source Serif Pro, PT Sans, Trebuchet MS, Helvetica, Arial;
+                font-size: 2em;
+            }
+
+            h2 {
+                font-family: Tahoma, Helvetica, Arial;
+                font-size: 3em;
+            }
+
+            ul {
+                list-style: none;
+                margin-bottom: 1em;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 id="Alura\Leilao\Tests\Unit\Domain\LeilaoTest">Alura\Leilao\Tests\Unit\Domain\Leilao</h2>
+        <ul>
+            <li style="color: #555753;">✓ Propor lance em leilao finalizado deve lancar excecao</li>
+            <li style="color: #555753;">✓ Propor lances em leilao deve funcionar with data set #0</li>
+            <li style="color: #555753;">✓ Propor lances em leilao deve funcionar with data set #1</li>
+            <li style="color: #555753;">✓ Mesmo usuario nao pode propor dois lances seguidos</li>
+        </ul>
+        <h2 id="Alura\Leilao\Tests\Unit\Service\AvaliadorTest">Alura\Leilao\Tests\Unit\Service\Avaliador</h2>
+        <ul>
+            <li style="color: #555753;">✓ Avaliador deve achar maior valor with data set #0</li>
+            <li style="color: #555753;">✓ Avaliador deve achar maior valor with data set #1</li>
+            <li style="color: #555753;">✓ Avaliador deve achar maior valor with data set #2</li>
+            <li style="color: #555753;">✓ Avaliador deve achar menor valor with data set #0</li>
+            <li style="color: #555753;">✓ Avaliador deve achar menor valor with data set #1</li>
+            <li style="color: #555753;">✓ Avaliador deve achar menor valor with data set #2</li>
+            <li style="color: #555753;">✓ Avaliador deve ordenar os 3 lances with data set #0</li>
+            <li style="color: #555753;">✓ Avaliador deve ordenar os 3 lances with data set #1</li>
+            <li style="color: #555753;">✓ Avaliador deve ordenar os 3 lances with data set #2</li>
+            <li style="color: #555753;">✓ Avaliador deve retornar os maiores lances disponiveis</li>
+        </ul>
+        <h2 id="Alura\Leilao\Tests\Unit\Service\EncerradorTest">Alura\Leilao\Tests\Unit\Service\Encerrador</h2>
+        <ul>
+            <li style="color: #555753;">✓ Leiloes com mais de uma semana devem ser encerrados</li>
+            <li style="color: #555753;">✓ Deve continuar o processamento ao encontrar erro ao enviar email</li>
+            <li style="color: #555753;">✓ So deve enviar leilao por email apos finalizado</li>
+        </ul>
+    </body>
+</html>
