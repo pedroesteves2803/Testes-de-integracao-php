@@ -21,3 +21,8 @@ Alura\Leilao\Tests\Unit\Service\Encerrador
  [x] Deve continuar o processamento ao encontrar erro ao enviar email
  [x] So deve enviar leilao por email apos finalizado
 
+Alura\Leilao\Tests\Integration\Dao\LeilaoDao
+ [x] Busca lieloes nao finalizados with data set #0
+ [x] Busca lieloes finalizados with data set #0
+ [x] Ao atulizar leilao status deve ser alterado
+

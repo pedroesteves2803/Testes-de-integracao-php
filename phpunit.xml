@@ -4,7 +4,11 @@
         colors="true">
         <testsuites>
             <testsuite name="unit">
-                <directory>Tests</directory>
+                <directory>Tests/Unit</directory>
+            </testsuite>
+
+            <testsuite name="integration">
+                <directory>Tests/Integration</directory>
             </testsuite>
         </testsuites>
         <logging>
